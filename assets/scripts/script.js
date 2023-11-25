@@ -89,7 +89,7 @@ let cardsArray = [
 	cardCarlos.createCard(),
 	cardAlan.createCard(),
 	cardArlene.createCard(),
-    cardArely.createCard(),
+	cardArely.createCard(),
 ];
 
 const cardsContainer = document.getElementById("cards-container");
