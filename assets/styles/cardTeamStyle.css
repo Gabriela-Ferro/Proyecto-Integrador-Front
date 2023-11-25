@@ -1,8 +1,3 @@
-#logo-navbar {
-	width: 130px;
-	height: 50px;
-}
-
 .card-team-description {
 	width: 500px;
 	font-family: sans-serif;
@@ -16,10 +11,6 @@
 
 .card-team-role {
 	color: blueviolet !important;
-}
-
-* {
-	box-sizing: border-box;
 }
 
 html {
