@@ -1,7 +1,7 @@
 .card-team-description {
-	width: 300px;
-	font-family: "Inter";
+	width: 18rem;
 	font-weight: 300;
+	font-size: 0.9rem;
 	text-align: justify;
 }
 
@@ -33,14 +33,14 @@ html {
 
 .card-team {
 	display: grid;
-	margin: 16px;
+	margin: 1rem;
 }
 
 .card-team-figure {
-	width: 300px;
+	width: 18rem;
 	aspect-ratio: 7 / 6;
 	--bg: hsl(330 80% calc(90% - (var(--hover) * 10%)));
-	--accent: hsl(192, 80%, 40%);
+	--accent: hsl(295, 97%, 45%);
 	transition: background 0.2s;
 	background: radial-gradient(
 			circle at top left,
@@ -51,7 +51,7 @@ html {
 	margin: 0;
 	position: relative;
 	overflow: hidden;
-	border-radius: 2rem;
+	border-radius: 1rem;
 }
 
 .card-team-figure:after {
@@ -61,7 +61,7 @@ html {
 	aspect-ratio: 1;
 	border-radius: 50%;
 	bottom: 0%;
-	left: 10%;
+	left: 20%;
 	background: linear-gradient(-65deg, var(--bg) 50%, var(--accent) 50%);
 	filter: blur(25px);
 	transform: translateX(calc(var(--hover) * 15%))
@@ -71,7 +71,7 @@ html {
 
 .card-team-figure img {
 	position: absolute;
-	left: 20%;
+	left: 12%;
 	bottom: 0%;
 	height: 85%;
 	transform: translateX(calc(var(--hover) * -15%))
