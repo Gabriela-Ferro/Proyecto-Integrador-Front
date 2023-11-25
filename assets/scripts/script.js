@@ -54,7 +54,7 @@ class MemberCard {
 	}
 }
 
-let card1 = new MemberCard(
+let cardCarlos = new MemberCard(
 	"Carlos Carranza",
 	"Scrum Master",
 	"./assets/img/YO-bottomless.png",
@@ -62,24 +62,15 @@ let card1 = new MemberCard(
 	"Hola, mi nombre es Carlos y soy programador. Me considero una persona analítica, paciente y creativa, características que me ayudan a resolver problemas de manera eficiente. Me gusta la música electrónica, leer artículos de las últimas tendencias y tecnologías en desarrollo, practicar básquetbol, resolver el cubo de Rubik y sobre todo, me apasiona crear soluciones a través del código."
 );
 
-let card2 = new MemberCard(
+let cardAlan = new MemberCard(
 	"Alan Navarro",
 	"Developer",
-	"",
-	"",
+	"./assets/img/YO-bottomless.png",
+	"https://github.com/Cielciti97/",
 	"Estudiante Generation"
 );
 
-// let cardCharly = {
-//     name: "Carlos",
-//     role: "Master",
-//     img: "/assets/img/YO-bottomless.png",
-//     githubLink: "https://github.com/Cielciti97/",
-//     description: "Hola, mi nombre es Carlos y soy programador",
-//     Saludar: ()=>console.log("hola")
-// }
-
-let cardsArray = [card1.createCard()];
+let cardsArray = [cardCarlos.createCard(), cardAlan.createCard()];
 
 const cardsContainer = document.getElementById("cards-container");
-cardsContainer.innerHTML = cardsArray;
+cardsContainer.innerHTML = cardsArray.join("");
