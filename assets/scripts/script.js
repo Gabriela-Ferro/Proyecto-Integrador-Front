@@ -75,11 +75,14 @@ let cardArlene = new MemberCard(
 	"Developer",
 	"./assets/img/arlene-sinfondo.png",
 	"https://github.com/arleneom",
-	"¡Hola! Soy Arlene Ortiz, Psicóloga cognitivo-conductual formada en la UANL, creativa, honesta y empatica. Apasionada por las nuevas tecnologías, el aprendizaje, la solución de problemas, la cocina y la música. Formandome como programadora y buscando mi camino en las tecnologias como una forma de reunir todas mis pasiones."
-); 
+	"¡Hola! Soy Arlene Ortiz, Psicóloga Cognitivo-Conductual formada en la UANL, creativa, honesta y empática. Apasionada por las nuevas tecnologías, el aprendizaje, la solución de problemas, la cocina y la música. Formándome como programadora y buscando mi camino en las tecnologías como una forma de reunir todas mis pasiones."
+);
 
-
-let cardsArray = [cardCarlos.createCard(), cardAlan.createCard(), cardArlene.createCard()];
+let cardsArray = [
+	cardCarlos.createCard(),
+	cardAlan.createCard(),
+	cardArlene.createCard(),
+];
 
 const cardsContainer = document.getElementById("cards-container");
 cardsContainer.innerHTML = cardsArray.join("");
