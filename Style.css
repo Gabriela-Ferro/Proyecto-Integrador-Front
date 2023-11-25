@@ -44,7 +44,6 @@ html {
 .card-team {
 	display: grid;
 	place-items: center;
-	min-height: 100vh;
 }
 
 .card-team-figure {
