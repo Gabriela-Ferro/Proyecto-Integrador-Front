@@ -26,7 +26,7 @@ class MemberCard {
                     <div class="d-flex mt-4 mb-2">
                         <h2 class="m-0">${this.#name}</h2>
                         <div class="ms-4">
-                            <a href="${this.#githubLink}">
+                            <a href="${this.#githubLink}" target="_blank">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="32"
@@ -75,11 +75,22 @@ let cardArlene = new MemberCard(
 	"Developer",
 	"./assets/img/arlene-sinfondo.png",
 	"https://github.com/arleneom",
-	"¡Hola! Soy Arlene Ortiz, Psicóloga cognitivo-conductual formada en la UANL, creativa, honesta y empatica. Apasionada por las nuevas tecnologías, el aprendizaje, la solución de problemas, la cocina y la música. Formandome como programadora y buscando mi camino en las tecnologias como una forma de reunir todas mis pasiones."
-); 
+	"¡Hola! Soy Arlene Ortiz, Psicóloga Cognitivo-Conductual formada en la UANL, creativa, honesta y empática. Apasionada por las nuevas tecnologías, el aprendizaje, la solución de problemas, la cocina y la música. Formándome como programadora y buscando mi camino en las tecnologías como una forma de reunir todas mis pasiones."
+);
+let cardArely = new MemberCard(
+	"Arely Rizo",
+	"Developer",
+	"./assets/img/arely.png",
+	"https://github.com/arelyrizo",
+	"Mi nombre es Arely Rizo Ruiz, Naci el 5  de julio del año 2000,  estudie la licenciatura en negocios internacionales, culminada en el 2022, ocotlan jalisco con excelencia academica. Vivo en guadalajara jalisco.Actualmente me encuentro preaparandome como desarrolladora java full stack"
+);
 
-
-let cardsArray = [cardCarlos.createCard(), cardAlan.createCard(), cardArlene.createCard()];
+let cardsArray = [
+	cardCarlos.createCard(),
+	cardAlan.createCard(),
+	cardArlene.createCard(),
+    cardArely.createCard(),
+];
 
 const cardsContainer = document.getElementById("cards-container");
 cardsContainer.innerHTML = cardsArray.join("");
