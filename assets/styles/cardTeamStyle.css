@@ -73,7 +73,7 @@ html {
 	position: absolute;
 	left: 20%;
 	bottom: 0%;
-	width: 60%;
+	height: 85%;
 	transform: translateX(calc(var(--hover) * -15%))
 		scale(calc(1 + (var(--hover) * 0.2)));
 	transition: transform 0.2s;
