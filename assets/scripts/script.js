@@ -15,8 +15,8 @@ class MemberCard {
 
 	createCard() {
 		return `
-            <article class="card-team w-fit">
-                <div class="mt-4 card-team-container">
+            <article class="card-team">
+                <div class="mt-4 card-team-body">
                     <figure class="card-team-figure">
                         <img
                             src="${this.#img}"
@@ -94,14 +94,12 @@ let cardSebastian = new MemberCard(
 	"Un placer, mi nombre es Sebastian Montes de Oca, Ingeniero de minas y metalurgia. Actualmente me encuentro en preparación de ser Developer Jr. Soy geek, disfruto aprender sobre programación y se que siendo tolerante, enfocado y perseverante lograre analizar los problemas y resolverlos de manera correcta. Me encanta la música, bailar y rodar en bicicleta. Lo mejor que existe para mí es observar el verde de los caminos que atraviesas."
 );
 
-let cardGabriela = new MemberCard (
+let cardGabriela = new MemberCard(
 	"Gabriela Ferro",
 	"Product Owner",
 	"./assets/img/FotoGabyFerroRz.png",
 	"https://github.com/Gabriela-Ferro",
 	"¡Hola! Soy Gabriela, actualmente fungo como Product Owner y miembro del Development Team de este gran proyecto. Estudie Derecho en la UNAM y actualmente me formo como desarrolladora junior. Tengo multiples intereses y pasatiempos muy diversos, en especial me gustan las artes visuales, la naturaleza y los deportes. Me interesa el diseño UX-UI, y mi meta es trabajar diseñando y programando páginas accesibles con visuales atractivos que impacten positivamente a las personas.!"
-
-
 );
 
 let cardsArray = [
@@ -110,7 +108,7 @@ let cardsArray = [
 	cardArlene.createCard(),
 	cardArely.createCard(),
 	cardSebastian.createCard(),
-	cardGabriela.createCard()
+	cardGabriela.createCard(),
 ];
 
 const cardsContainer = document.getElementById("cards-container");
