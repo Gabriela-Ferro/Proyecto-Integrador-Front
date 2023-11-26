@@ -77,6 +77,7 @@ let cardArlene = new MemberCard(
 	"https://github.com/arleneom",
 	"¡Hola! Soy Arlene Ortiz, Psicóloga Cognitivo-Conductual formada en la UANL, creativa, honesta y empática. Apasionada por las nuevas tecnologías, el aprendizaje, la solución de problemas, la cocina y la música. Formándome como programadora y buscando mi camino en las tecnologías como una forma de reunir todas mis pasiones."
 );
+
 let cardArely = new MemberCard(
 	"Arely Rizo",
 	"Developer",
@@ -85,11 +86,31 @@ let cardArely = new MemberCard(
 	"Mi nombre es Arely Rizo Ruiz, Naci el 5  de julio del año 2000,  estudie la licenciatura en negocios internacionales, culminada en el 2022, ocotlan jalisco con excelencia academica. Vivo en guadalajara jalisco.Actualmente me encuentro preaparandome como desarrolladora java full stack"
 );
 
+let cardSebastian = new MemberCard(
+	"Sebastian Montes de Oca",
+	"Developer",
+	"./assets/img/.png",
+	"https://github.com/sebastianmov",
+	"Un placer, mi nombre es Sebastian Montes de Oca, Ingeniero de minas y metalurgia. Actualmente me encuentro en preparación de ser Developer Jr. Soy geek, disfruto aprender sobre programación y se que siendo tolerante, enfocado y perseverante lograre analizar los problemas y resolverlos de manera correcta. Me encanta la música, bailar y rodar en bicicleta. Lo mejor que existe para mí es observar el verde de los caminos que atraviesas."
+);
+
+let cardGabriela = new MemberCard (
+	"Gabriela Ferro",
+	"Product Owner",
+	"./assets/img/FotoGabyFerroRz.png",
+	"https://github.com/Gabriela-Ferro",
+	"¡Hola! Soy Gabriela, actualmente fungo como Product Owner y miembro del Development Team de este gran proyecto. Estudie Derecho en la UNAM y actualmente me formo como desarrolladora junior. Tengo multiples intereses y pasatiempos muy diversos, en especial me gustan las artes visuales, la naturaleza y los deportes. Me interesa el diseño UX-UI, y mi meta es trabajar diseñando y programando páginas accesibles con visuales atractivos que impacten positivamente a las personas.!"
+
+
+);
+
 let cardsArray = [
 	cardCarlos.createCard(),
 	cardAlan.createCard(),
 	cardArlene.createCard(),
 	cardArely.createCard(),
+	cardSebastian.createCard(),
+	cardGabriela.createCard()
 ];
 
 const cardsContainer = document.getElementById("cards-container");
