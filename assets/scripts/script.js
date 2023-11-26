@@ -101,6 +101,13 @@ let cardGabriela = new MemberCard(
 	"https://github.com/Gabriela-Ferro",
 	"¡Hola! Soy Gabriela, actualmente fungo como Product Owner y miembro del Development Team de este gran proyecto. Estudie Derecho en la UNAM y actualmente me formo como desarrolladora junior. Tengo multiples intereses y pasatiempos muy diversos, en especial me gustan las artes visuales, la naturaleza y los deportes. Me interesa el diseño UX-UI, y mi meta es trabajar diseñando y programando páginas accesibles con visuales atractivos que impacten positivamente a las personas.!"
 );
+let cardAndres = new MemberCard(
+    "Andrés Pérez",
+    "Developer",
+    "./assets/img/YO-bottomless.png",
+    "https://github.com/Mkief02",
+    "Hola, me llamo Andrés y, de acuerdo con mi trayectoria académica, soy músico y productor; algo que sin duda complementa el ser y pensar de lo que  pieso que me identifica de mejor forma, alguien curioso, apasionado por las matemáticas, la cuestión y las artes."
+);
 
 let cardsArray = [
 	cardCarlos.createCard(),
@@ -109,6 +116,7 @@ let cardsArray = [
 	cardArely.createCard(),
 	cardSebastian.createCard(),
 	cardGabriela.createCard(),
+	cardAndres.createCard(),
 ];
 
 const cardsContainer = document.getElementById("cards-container");
