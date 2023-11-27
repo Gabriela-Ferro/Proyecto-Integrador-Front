@@ -65,7 +65,7 @@ let cardCarlos = new MemberCard(
 let cardAlan = new MemberCard(
 	"Alan Navarro",
 	"Developer",
-	"./assets/img/YO-bottomless.png",
+	"./assets/img/fotoAlanCard.png",
 	"https://github.com/Cielciti97/",
 	"Estudiante Generation"
 );
