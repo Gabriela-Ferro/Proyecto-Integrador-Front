@@ -15,8 +15,13 @@ class MemberCard {
 
 	createCard() {
 		return `
+<<<<<<< HEAD
+            <article class="card-team w-fit">
+                <div class="mt-4 card-team-container ">
+=======
             <article class="card-team">
                 <div class="mt-4 card-team-body">
+>>>>>>> 10a3b54130f44823a7676ddd466b66da6c30e038
                     <figure class="card-team-figure">
                         <img
                             src="${this.#img}"
@@ -67,7 +72,7 @@ let cardAlan = new MemberCard(
 	"Developer",
 	"./assets/img/fotoAlanCard.png",
 	"https://github.com/Cielciti97/",
-	"Soy un apasionado por la creación de experiencias web cautivadoras y funcionales. Con una sólida formación en desarrollo web y un enfoque especializado en el front end, busco aprovechar mis habilidades técnicas y mi creatividad para contribuir al desarrollo de aplicaciones web innovadoras y de alta calidad."
+	"¡Hola! Mi nombre es Alan y soy un apasionado por la creación de experiencias web cautivadoras y funcionales. Con una sólida formación en desarrollo web, busco aprovechar mis habilidades técnicas y mi creatividad para contribuir al desarrollo de aplicaciones web innovadoras y de alta calidad."
 );
 
 let cardArlene = new MemberCard(
@@ -89,7 +94,7 @@ let cardArely = new MemberCard(
 let cardSebastian = new MemberCard(
 	"Sebastian Montes de Oca",
 	"Developer",
-	"./assets/img/.png",
+	"./assets/img/sebas.png",
 	"https://github.com/sebastianmov",
 	"Un placer, mi nombre es Sebastian Montes de Oca, Ingeniero de minas y metalurgia. Actualmente me encuentro en preparación de ser Developer Jr. Soy geek, disfruto aprender sobre programación y se que siendo tolerante, enfocado y perseverante lograre analizar los problemas y resolverlos de manera correcta. Me encanta la música, bailar y rodar en bicicleta. Lo mejor que existe para mí es observar el verde de los caminos que atraviesas."
 );
@@ -97,10 +102,11 @@ let cardSebastian = new MemberCard(
 let cardGabriela = new MemberCard(
 	"Gabriela Ferro",
 	"Product Owner",
-	"./assets/img/FotoGabyFerroRz.png",
+	"./assets/img/fotoGabyFerroRz.png",
 	"https://github.com/Gabriela-Ferro",
-	"¡Hola! Soy Gabriela, actualmente fungo como Product Owner y miembro del Development Team de este gran proyecto. Estudie Derecho en la UNAM y actualmente me formo como desarrolladora junior. Tengo multiples intereses y pasatiempos muy diversos, en especial me gustan las artes visuales, la naturaleza y los deportes. Me interesa el diseño UX-UI, y mi meta es trabajar diseñando y programando páginas accesibles con visuales atractivos que impacten positivamente a las personas.!"
+	"¡Hola! Soy Gabriela, actualmente funjo como Product Owner y miembro del Development Team de este gran proyecto. Estudie Derecho en la UNAM y actualmente me formo como desarrolladora junior. Tengo multiples intereses y pasatiempos muy diversos, en especial me gustan las artes visuales, la naturaleza y los deportes. Me interesa el diseño UX-UI, y mi meta es trabajar diseñando y programando páginas accesibles con visuales atractivos que impacten positivamente a las personas.!"
 );
+
 let cardAndres = new MemberCard(
     "Andrés Pérez",
     "Developer",
