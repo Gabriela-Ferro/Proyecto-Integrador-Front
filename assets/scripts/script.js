@@ -66,7 +66,7 @@ let cardAlan = new MemberCard(
 	"Alan Navarro",
 	"Developer",
 	"./assets/img/fotoAlanCard.png",
-	"https://github.com/Cielciti97/",
+	"https://github.com/Alanav29/",
 	"¡Hola! Mi nombre es Alan y soy un apasionado por la creación de experiencias web cautivadoras y funcionales. Con una sólida formación en desarrollo web, busco aprovechar mis habilidades técnicas y mi creatividad para contribuir al desarrollo de aplicaciones web innovadoras y de alta calidad."
 );
 
@@ -103,11 +103,11 @@ let cardGabriela = new MemberCard(
 );
 
 let cardAndres = new MemberCard(
-    "Andrés Pérez",
-    "Developer",
-    "./assets/img/fotoAndres.png",
-    "https://github.com/Mkief02",
-    "Hola, me llamo Andrés y, de acuerdo con mi trayectoria académica, soy músico y productor; algo que sin duda complementa el ser y pensar de lo que  pieso que me identifica de mejor forma, alguien curioso, apasionado por las matemáticas, la cuestión y las artes."
+	"Andrés Pérez",
+	"Developer",
+	"./assets/img/fotoAndres.png",
+	"https://github.com/Mkief02",
+	"Hola, me llamo Andrés y, de acuerdo con mi trayectoria académica, soy músico y productor; algo que sin duda complementa el ser y pensar de lo que  pieso que me identifica de mejor forma, alguien curioso, apasionado por las matemáticas, la cuestión y las artes."
 );
 
 let cardsArray = [
