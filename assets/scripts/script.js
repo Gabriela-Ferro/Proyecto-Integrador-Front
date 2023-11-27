@@ -15,8 +15,13 @@ class MemberCard {
 
 	createCard() {
 		return `
+<<<<<<< HEAD
+            <article class="card-team w-fit">
+                <div class="mt-4 card-team-container ">
+=======
             <article class="card-team">
                 <div class="mt-4 card-team-body">
+>>>>>>> 10a3b54130f44823a7676ddd466b66da6c30e038
                     <figure class="card-team-figure">
                         <img
                             src="${this.#img}"
@@ -89,7 +94,7 @@ let cardArely = new MemberCard(
 let cardSebastian = new MemberCard(
 	"Sebastian Montes de Oca",
 	"Developer",
-	"./assets/img/fotoSebas.png",
+	"./assets/img/sebas.png",
 	"https://github.com/sebastianmov",
 	"Un placer, mi nombre es Sebastian Montes de Oca, Ingeniero de minas y metalurgia. Actualmente me encuentro en preparación de ser Developer Jr. Soy geek, disfruto aprender sobre programación y se que siendo tolerante, enfocado y perseverante lograre analizar los problemas y resolverlos de manera correcta. Me encanta la música, bailar y rodar en bicicleta. Lo mejor que existe para mí es observar el verde de los caminos que atraviesas."
 );
