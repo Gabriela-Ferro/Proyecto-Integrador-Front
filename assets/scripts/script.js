@@ -104,7 +104,7 @@ let cardGabriela = new MemberCard(
 let cardAndres = new MemberCard(
     "Andrés Pérez",
     "Developer",
-    "./assets/img/YO-bottomless.png",
+    "./assets/img/fotoAndres.png",
     "https://github.com/Mkief02",
     "Hola, me llamo Andrés y, de acuerdo con mi trayectoria académica, soy músico y productor; algo que sin duda complementa el ser y pensar de lo que  pieso que me identifica de mejor forma, alguien curioso, apasionado por las matemáticas, la cuestión y las artes."
 );
