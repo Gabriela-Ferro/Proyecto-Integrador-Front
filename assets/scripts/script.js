@@ -89,7 +89,7 @@ let cardArely = new MemberCard(
 let cardSebastian = new MemberCard(
 	"Sebastian Montes de Oca",
 	"Developer",
-	"./assets/img/sebas.png",
+	"./assets/img/fotoSebas.png",
 	"https://github.com/sebastianmov",
 	"Un placer, mi nombre es Sebastian Montes de Oca, Ingeniero de minas y metalurgia. Actualmente me encuentro en preparación de ser Developer Jr. Soy geek, disfruto aprender sobre programación y se que siendo tolerante, enfocado y perseverante lograre analizar los problemas y resolverlos de manera correcta. Me encanta la música, bailar y rodar en bicicleta. Lo mejor que existe para mí es observar el verde de los caminos que atraviesas."
 );
