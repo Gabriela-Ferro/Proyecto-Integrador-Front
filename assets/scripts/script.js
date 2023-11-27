@@ -66,7 +66,7 @@ let cardAlan = new MemberCard(
 	"Alan Navarro",
 	"Developer",
 	"./assets/img/fotoAlanCard.png",
-	"https://github.com/Cielciti97/",
+	"https://github.com/Alanav29/",
 	"¡Hola! Mi nombre es Alan y soy un apasionado por la creación de experiencias web cautivadoras y funcionales. Con una sólida formación en desarrollo web, busco aprovechar mis habilidades técnicas y mi creatividad para contribuir al desarrollo de aplicaciones web innovadoras y de alta calidad."
 );
 
