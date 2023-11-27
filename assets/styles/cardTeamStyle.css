@@ -43,7 +43,7 @@
 	width: 18rem;
 	aspect-ratio: 7 / 6;
 	--bg: hsl(50 100% calc(90% - (var(--hover) * 10%)));
-	--accent: hsl(170, 100%, 50%);
+	--accent: hsl(170, 100%, 43%);
 	transition: background 0.2s;
 	background: radial-gradient(
 			circle at top left,
