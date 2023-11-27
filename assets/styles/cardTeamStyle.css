@@ -30,7 +30,7 @@
 }
 
 .card-team-role {
-	color: blueviolet !important;
+	color: rgb(0, 155, 0) !important;
 }
 
 .card-team-description {
@@ -42,8 +42,8 @@
 .card-team-figure {
 	width: 18rem;
 	aspect-ratio: 7 / 6;
-	--bg: hsl(330 80% calc(90% - (var(--hover) * 10%)));
-	--accent: hsl(295, 97%, 45%);
+	--bg: hsl(50 100% calc(90% - (var(--hover) * 10%)));
+	--accent: hsl(170, 100%, 50%);
 	transition: background 0.2s;
 	background: radial-gradient(
 			circle at top left,
