@@ -67,7 +67,7 @@ let cardAlan = new MemberCard(
 	"Developer",
 	"./assets/img/fotoAlanCard.png",
 	"https://github.com/Cielciti97/",
-	"Soy un apasionado por la creación de experiencias web cautivadoras y funcionales. Con una sólida formación en desarrollo web y un enfoque especializado en el front end, busco aprovechar mis habilidades técnicas y mi creatividad para contribuir al desarrollo de aplicaciones web innovadoras y de alta calidad."
+	"¡Hola! Mi nombre es Alan y soy un apasionado por la creación de experiencias web cautivadoras y funcionales. Con una sólida formación en desarrollo web, busco aprovechar mis habilidades técnicas y mi creatividad para contribuir al desarrollo de aplicaciones web innovadoras y de alta calidad."
 );
 
 let cardArlene = new MemberCard(
