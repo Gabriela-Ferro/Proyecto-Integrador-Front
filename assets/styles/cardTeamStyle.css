@@ -1,29 +1,19 @@
-.card-team-description {
+.card-team {
+	display: grid;
+	margin: 1rem;
 	width: 18rem;
-	font-weight: 300;
-	font-size: 0.9rem;
-	text-align: justify;
 }
 
-.card-team-container a {
+.card-team-body a {
 	color: black !important;
 }
 
-.card-team-role {
-	color: blueviolet !important;
-}
-
-html {
-	font-weight: 300;
-	color: hsl(0 0% 15%);
-}
-
-.card-team-container h2 {
+.card-team-body h2 {
 	font-weight: 400;
 	margin: 2rem 0 0.25rem 0;
 }
 
-.card-team-container h1 {
+.card-team-body h1 {
 	position: fixed;
 	right: 1rem;
 	bottom: 1rem;
@@ -31,16 +21,29 @@ html {
 	margin: 0;
 }
 
-.card-team {
-	display: grid;
-	margin: 1rem;
+.card-team-body {
+	--hover: 0;
+}
+
+.card-team-body:hover {
+	--hover: 1;
+}
+
+.card-team-role {
+	color: rgb(0, 155, 0) !important;
+}
+
+.card-team-description {
+	font-weight: 300;
+	font-size: 0.9rem;
+	text-align: justify;
 }
 
 .card-team-figure {
 	width: 18rem;
 	aspect-ratio: 7 / 6;
-	--bg: hsl(330 80% calc(90% - (var(--hover) * 10%)));
-	--accent: hsl(295, 97%, 45%);
+	--bg: hsl(50 100% calc(90% - (var(--hover) * 10%)));
+	--accent: hsl(170, 100%, 43%);
 	transition: background 0.2s;
 	background: radial-gradient(
 			circle at top left,
@@ -77,12 +80,4 @@ html {
 	transform: translateX(calc(var(--hover) * -15%))
 		scale(calc(1 + (var(--hover) * 0.2)));
 	transition: transform 0.2s;
-}
-
-.card-team-container {
-	--hover: 0;
-}
-
-.card-team-container:hover {
-	--hover: 1;
 }

@@ -15,8 +15,8 @@ class MemberCard {
 
 	createCard() {
 		return `
-            <article class="card-team w-fit">
-                <div class="mt-4 card-team-container">
+            <article class="card-team">
+                <div class="mt-4 card-team-body">
                     <figure class="card-team-figure">
                         <img
                             src="${this.#img}"
@@ -65,9 +65,9 @@ let cardCarlos = new MemberCard(
 let cardAlan = new MemberCard(
 	"Alan Navarro",
 	"Developer",
-	"./assets/img/YO-bottomless.png",
+	"./assets/img/fotoAlanCard.png",
 	"https://github.com/Cielciti97/",
-	"Estudiante Generation"
+	"¡Hola! Mi nombre es Alan y soy un apasionado por la creación de experiencias web cautivadoras y funcionales. Con una sólida formación en desarrollo web, busco aprovechar mis habilidades técnicas y mi creatividad para contribuir al desarrollo de aplicaciones web innovadoras y de alta calidad."
 );
 
 let cardArlene = new MemberCard(
@@ -77,6 +77,7 @@ let cardArlene = new MemberCard(
 	"https://github.com/arleneom",
 	"¡Hola! Soy Arlene Ortiz, Psicóloga Cognitivo-Conductual formada en la UANL, creativa, honesta y empática. Apasionada por las nuevas tecnologías, el aprendizaje, la solución de problemas, la cocina y la música. Formándome como programadora y buscando mi camino en las tecnologías como una forma de reunir todas mis pasiones."
 );
+
 let cardArely = new MemberCard(
 	"Arely Rizo",
 	"Developer",
@@ -85,11 +86,37 @@ let cardArely = new MemberCard(
 	"Mi nombre es Arely Rizo Ruiz, Naci el 5  de julio del año 2000,  estudie la licenciatura en negocios internacionales, culminada en el 2022, ocotlan jalisco con excelencia academica. Vivo en guadalajara jalisco.Actualmente me encuentro preaparandome como desarrolladora java full stack"
 );
 
+let cardSebastian = new MemberCard(
+	"Sebastian Montes de Oca",
+	"Developer",
+	"./assets/img/.png",
+	"https://github.com/sebastianmov",
+	"Un placer, mi nombre es Sebastian Montes de Oca, Ingeniero de minas y metalurgia. Actualmente me encuentro en preparación de ser Developer Jr. Soy geek, disfruto aprender sobre programación y se que siendo tolerante, enfocado y perseverante lograre analizar los problemas y resolverlos de manera correcta. Me encanta la música, bailar y rodar en bicicleta. Lo mejor que existe para mí es observar el verde de los caminos que atraviesas."
+);
+
+let cardGabriela = new MemberCard(
+	"Gabriela Ferro",
+	"Product Owner",
+	"./assets/img/FotoGabyFerroRz.png",
+	"https://github.com/Gabriela-Ferro",
+	"¡Hola! Soy Gabriela, actualmente fungo como Product Owner y miembro del Development Team de este gran proyecto. Estudie Derecho en la UNAM y actualmente me formo como desarrolladora junior. Tengo multiples intereses y pasatiempos muy diversos, en especial me gustan las artes visuales, la naturaleza y los deportes. Me interesa el diseño UX-UI, y mi meta es trabajar diseñando y programando páginas accesibles con visuales atractivos que impacten positivamente a las personas.!"
+);
+let cardAndres = new MemberCard(
+    "Andrés Pérez",
+    "Developer",
+    "./assets/img/fotoAndres.png",
+    "https://github.com/Mkief02",
+    "Hola, me llamo Andrés y, de acuerdo con mi trayectoria académica, soy músico y productor; algo que sin duda complementa el ser y pensar de lo que  pieso que me identifica de mejor forma, alguien curioso, apasionado por las matemáticas, la cuestión y las artes."
+);
+
 let cardsArray = [
 	cardCarlos.createCard(),
 	cardAlan.createCard(),
 	cardArlene.createCard(),
 	cardArely.createCard(),
+	cardSebastian.createCard(),
+	cardGabriela.createCard(),
+	cardAndres.createCard(),
 ];
 
 const cardsContainer = document.getElementById("cards-container");

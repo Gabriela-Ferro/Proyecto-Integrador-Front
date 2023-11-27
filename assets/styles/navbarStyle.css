@@ -1,8 +1,11 @@
 #logo-navbar {
-	width: 130px;
-	height: 50px;
+	height: 35px;
 }
 
 #navbar a:focus {
 	color: blueviolet;
+}
+
+#navbar {
+	background-color: rgb(246, 246, 246);
 }
