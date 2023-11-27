@@ -15,13 +15,8 @@ class MemberCard {
 
 	createCard() {
 		return `
-<<<<<<< HEAD
-            <article class="card-team w-fit">
-                <div class="mt-4 card-team-container ">
-=======
             <article class="card-team">
                 <div class="mt-4 card-team-body">
->>>>>>> 10a3b54130f44823a7676ddd466b66da6c30e038
                     <figure class="card-team-figure">
                         <img
                             src="${this.#img}"
