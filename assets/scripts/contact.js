@@ -1,27 +1,18 @@
-// Obtener la referencia del formulario
-const registerForm = document.forms["contactForm"];
 
-/**
- * Adjunto un controlador de eventos a un elemento HTML.
- * eventType: Tipo de evento a escuchar
- * fncCallBack: Función de callvback que se ejecutará cuando
- *   suceda el evento.
- * 
- * registerForm.addEventListener( eventType , fncCallback ()=>{} );
- * 
- * El evento se realizará cuando se pulse el botón submit
- */
-registerForm.addEventListener( "submit" , ( event )=>{
-    // Evita el comportamiento predeterminado asociadoa un evento.
+const contactForm = document.forms["contactForm"];
+
+
+contactForm.addEventListener( "submit" , ( event )=>{
     event.preventDefault();
-    console.log(event);
+    // console.log(event);
 
-    const user = {
-        name : registerForm.elements["contactName"].value ,
-        email : registerForm.elements["contactEmail"].value ,
-        number : registerForm.elements["contactNumber"].value,
-        message : registerForm.elements["contactMessage"].value,
-    }
+     const user = {
+         name : contactForm.elements["contact-form-name"].value ,
+         email : contactForm.elements["contact-form-email"].value ,
+         number : contactForm.elements["contact-form-number"].value,
+         issue : contactForm.options["contactMessage"].value,
+         message : contactForm.elements["contactMessage"].value,
+     }
 
     if( datosVerificados( user )  ){
         enviarDatosAlServidor( user );
@@ -70,3 +61,4 @@ const enviarDatosAlServidor = ( user ) => {
     console.table( user );
     // TODO enviar datos a la api del servidor
 }
+console.log(user);
