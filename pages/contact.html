@@ -89,12 +89,12 @@
                 <form id="contact-form">
                     <div class="m-3">
                         <label for="contact-form-name" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="contact-form-name" placeholder="Arfi Maulana"
+                        <input name="emailjs_name" type="text" class="form-control" id="emailjs_name" placeholder="Arfi Maulana"
                             required/>
                     </div>
                     <div class="m-3">
                         <label for="contact-form-email" class="form-label">E-mail</label>
-                        <input type="email" class="form-control" id="contact-form-email" placeholder="ejemplo@mail.com"
+                        <input name="emailjs_email" type="email" class="form-control" id="emailjs-email" placeholder="ejemplo@mail.com"
                             required/>
                     </div>
                     <div id="invalid-email-container" class="bg-warning mt-3 rounded">
@@ -103,7 +103,7 @@
                     </div>
                     <div class="m-3">
                         <label for="contact-form-phone" class="form-label">Teléfono</label>
-                        <input maxlength="10" minlength="10" type="text" class="form-control" id="contact-form-phone" placeholder="55 5555 5555"
+                        <input name="emailjs_phone" maxlength="10" minlength="10" type="text" class="form-control" id="emailjs_phone" placeholder="55 5555 5555"
                             required/>
                     </div>
                     <div id="invalid-phone-container" class="bg-warning mt-3 rounded">
@@ -112,7 +112,7 @@
                     </div>
                     <div class="m-3">
                         <label for="contact-form-issue" class="form-label">Asunto</label>
-                        <select class="form-select" id="contact-form-issue" required>
+                        <select name="emailjs_issue" class="form-select" id="emailjs-issue" required>
                             <option value="issue1">Asunto 1</option>
                             <option value="issue2">Asunto 2</option>
                             <option value="issue3">Asunto 3</option>
@@ -122,12 +122,12 @@
                     </div>
                     <div class="m-3">
                         <label for="contact-form-message" class="form-label">Mensaje</label>
-                        <input type="text" class="form-control" id="contact-form-message" placeholder="Escribe tu mensaje"
+                        <input name="emailjs_message" type="text" class="form-control" id="emailjs_message" placeholder="Escribe tu mensaje"
                             required/>
                     </div>
                                 <!-- Submit-Button -->
                     <div class="m-3">
-                        <button class="btn btn-primary" type="submit">Enviar</button>
+                        <button id="submit-button" class="btn btn-primary" type="submit">Enviar</button>
                       </div>
 
                 </form>
@@ -139,7 +139,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-    <script src="../assets/scripts/contact.js"></script>
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('EA6hf2_2S4stwWgRP')
+</script>
+<script src="../assets/scripts/prueba.js"></script>
+    <!-- <script src="../assets/scripts/contact.js"></script> -->
 </body>
 
 </html>
